@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "Unicode Text Transformer",
+  "version": "1.0",
+  "description": "A Chrome extension to transform selected text using Unicode styles",
+  "permissions": [
+    "activeTab",
+    "clipboardWrite"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["contentScript.js"]
+    }
+  ],
+  "browser_action": {
+  "default_icon": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "default_popup": "popup.html"
+}
