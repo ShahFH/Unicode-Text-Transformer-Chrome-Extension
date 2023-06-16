@@ -33,6 +33,6 @@ Contributions are welcome! If you want to contribute to this project, please fol
 2. Create a new branch for your feature or bug fix.
 3. Make your changes and enhancements.
 4. Test your changes thoroughly.
-5. Submit a pull request describing your changes.
+5. Submit a pull request describing your changes.👏
 
 
